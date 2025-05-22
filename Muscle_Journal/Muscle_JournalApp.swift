@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+/*
 @main
 struct Muscle_JournalApp: App {
     let persistenceController = PersistenceController.shared
@@ -18,3 +18,4 @@ struct Muscle_JournalApp: App {
         }
     }
 }
+*/
