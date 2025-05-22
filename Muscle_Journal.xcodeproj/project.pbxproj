@@ -48,14 +48,39 @@
 			path = Muscle_Journal;
 			sourceTree = "<group>";
 		};
-		CE5D9F272DDF0A5D00F7A5E0 /* Muscle_JournalTests */ = {
+		CE5D9F272DDF0A5D00F7A5E0 /* ZZMuscle_JournalTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Muscle_JournalTests;
+			path = ZZMuscle_JournalTests;
 			sourceTree = "<group>";
 		};
-		CE5D9F312DDF0A5D00F7A5E0 /* Muscle_JournalUITests */ = {
+		CE5D9F312DDF0A5D00F7A5E0 /* ZZMuscle_JournalUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Muscle_JournalUITests;
+			path = ZZMuscle_JournalUITests;
+			sourceTree = "<group>";
+		};
+		CE5D9F432DDF0A8800F7A5E0 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE5D9F962DDF2C8400F7A5E0 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE5D9FA52DDF2D8F00F7A5E0 /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CE5D9FA92DDF2E1F00F7A5E0 /* App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE5D9FC12DDF2F3200F7A5E0 /* Components */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,9 +113,14 @@
 		CE5D9F072DDF0A5B00F7A5E0 = {
 			isa = PBXGroup;
 			children = (
+				CE5D9FA92DDF2E1F00F7A5E0 /* App */,
+				CE5D9FC12DDF2F3200F7A5E0 /* Components */,
+				CE5D9F962DDF2C8400F7A5E0 /* Models */,
+				CE5D9FA52DDF2D8F00F7A5E0 /* ViewModels */,
+				CE5D9F432DDF0A8800F7A5E0 /* Views */,
 				CE5D9F122DDF0A5B00F7A5E0 /* Muscle_Journal */,
-				CE5D9F272DDF0A5D00F7A5E0 /* Muscle_JournalTests */,
-				CE5D9F312DDF0A5D00F7A5E0 /* Muscle_JournalUITests */,
+				CE5D9F272DDF0A5D00F7A5E0 /* ZZMuscle_JournalTests */,
+				CE5D9F312DDF0A5D00F7A5E0 /* ZZMuscle_JournalUITests */,
 				CE5D9F112DDF0A5B00F7A5E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,6 +152,11 @@
 			);
 			fileSystemSynchronizedGroups = (
 				CE5D9F122DDF0A5B00F7A5E0 /* Muscle_Journal */,
+				CE5D9F432DDF0A8800F7A5E0 /* Views */,
+				CE5D9F962DDF2C8400F7A5E0 /* Models */,
+				CE5D9FA52DDF2D8F00F7A5E0 /* ViewModels */,
+				CE5D9FA92DDF2E1F00F7A5E0 /* App */,
+				CE5D9FC12DDF2F3200F7A5E0 /* Components */,
 			);
 			name = Muscle_Journal;
 			packageProductDependencies = (
@@ -144,7 +179,7 @@
 				CE5D9F262DDF0A5D00F7A5E0 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				CE5D9F272DDF0A5D00F7A5E0 /* Muscle_JournalTests */,
+				CE5D9F272DDF0A5D00F7A5E0 /* ZZMuscle_JournalTests */,
 			);
 			name = Muscle_JournalTests;
 			packageProductDependencies = (
@@ -167,7 +202,7 @@
 				CE5D9F302DDF0A5D00F7A5E0 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				CE5D9F312DDF0A5D00F7A5E0 /* Muscle_JournalUITests */,
+				CE5D9F312DDF0A5D00F7A5E0 /* ZZMuscle_JournalUITests */,
 			);
 			name = Muscle_JournalUITests;
 			packageProductDependencies = (
